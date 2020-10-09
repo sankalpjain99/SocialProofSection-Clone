@@ -1,11 +1,21 @@
 /*--------------------------TAG CSS--------------------------------------*/
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);
+}
+
+a:hover{
+    color: hsl(303, 10%, 53%) ;
+}
+
 body{
     background-color: hsl(0, 0%, 100%);
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
     height: 100%;
     margin: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 html{
@@ -36,8 +46,9 @@ p{
 /*--------------------------CLASS CSS--------------------------------------*/
 
 .attribution{
-    color: hsl(300, 24%, 96%);
     text-align: center;
+    position: relative;
+    bottom: 10px;
 }
 
 .body-container-head{
@@ -47,9 +58,8 @@ p{
 }
 
 .body-container-foot{
-    background-color: red;
     height: 40%;
-    margin: 0 auto 0 auto;
+    margin: 30px auto 0 auto;
     width: 80%;
 }
 
@@ -57,7 +67,7 @@ p{
     background-color: hsl(300, 43%, 22%);
     border-radius: 4%;
     width: 335px;
-    height: 45%;
+    height: 47%;
     padding: 30px;
 }
 
@@ -107,7 +117,7 @@ p{
     border-radius: 7px;
     color: hsl(300, 43%, 22%);
     height: 60px;
-    width: 430px;
+    width: 470px;
 }
 
 .rev{
@@ -137,33 +147,34 @@ p{
 #box1{
     position: relative;
     top: 110px;
+    left: 45px;
 }
 
 #box2{
-    left: 50px;
+    left: 95px;
     position: relative;
     top: 108px;
 }
 
 #box3{
-    left: 100px;
+    left: 145px;
     position: relative;
     top: 108px;
 }
 
 #card1{
     position: relative;
-    /* left: 100px; */
+    left: 100px;
 }
 
 #card2{
     position: relative;
-    /* bottom: 50%; */
-    /* left: 500px; */
+    bottom: 200px; 
+    left: 530px; 
 }
 
 #card3{
     position: relative;
-    /* bottom: 600px;
-    left: 900px; */
+    bottom:400px;
+    left: 960px;
 }
