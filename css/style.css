@@ -5,13 +5,13 @@ body{
     font-size: 15px;
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 html{
     height: 100%;
+    margin: 0;
 }
-
 
 h1{
     color: hsl(300, 43%, 22%);
@@ -19,7 +19,7 @@ h1{
     font-weight: 700;
     width: 80%;
     margin: 0;
-    padding: 100px 0 0 70px;
+    padding: 100px 0 0 20px;
 }
 
 h5{
@@ -30,14 +30,15 @@ h5{
 }
 
 p{
-    color: hsl(303, 10%, 53%);
-    font-weight: 400;
-    padding: 0 0 0 70px;
-    width: 80%;
     margin: 0;
 }
 
 /*--------------------------CLASS CSS--------------------------------------*/
+
+.attribution{
+    color: hsl(300, 24%, 96%);
+    text-align: center;
+}
 
 .body-container-head{
     height: 40%;
@@ -45,10 +46,52 @@ p{
     width: 80%;
 }
 
+.body-container-foot{
+    background-color: red;
+    height: 40%;
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
+.card{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 4%;
+    width: 335px;
+    height: 45%;
+    padding: 30px;
+}
+
 .desc{
     margin-left: 80px;
     width: 40%;
     height: 100%;
+}
+
+.desc-info{
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 0 0 20px;
+    width: 80%;
+    margin: 0;
+}
+
+.dp{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.name{
+    font-weight: 700;
+    color: hsl(300, 24%, 96%);
+}
+
+.namedeg{
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 10px;
 }
 
 .ratings{
@@ -67,10 +110,27 @@ p{
     width: 430px;
 }
 
+.rev{
+    color: hsl(300, 24%, 96%);
+    margin-top: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.reviews{
+    height: 90%;
+}
+
 .stars{
     position: relative;
     left: 30px;
     top: 20px;
+}
+
+.verified{
+    font-weight: 400;
+    margin-top: 5px;
+    color: hsl(333, 80%, 67%);
 }
 
 /*--------------------------ID CSS--------------------------------------*/
@@ -89,4 +149,21 @@ p{
     left: 100px;
     position: relative;
     top: 108px;
+}
+
+#card1{
+    position: relative;
+    /* left: 100px; */
+}
+
+#card2{
+    position: relative;
+    /* bottom: 50%; */
+    /* left: 500px; */
+}
+
+#card3{
+    position: relative;
+    /* bottom: 600px;
+    left: 900px; */
 }
