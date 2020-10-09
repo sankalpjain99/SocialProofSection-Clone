@@ -24,12 +24,14 @@ h1{
 
 h5{
     bottom: 20px;
+    font-weight: 700;
     left: 160px;
     position: relative;
 }
 
 p{
     color: hsl(303, 10%, 53%);
+    font-weight: 400;
     padding: 0 0 0 70px;
     width: 80%;
     margin: 0;
