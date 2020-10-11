@@ -11,6 +11,9 @@ a:hover{
 
 body{
     background-color: hsl(0, 0%, 100%);
+    background-image: url(../images/bg-pattern-bottom-desktop.svg),url(../images/bg-pattern-top-desktop.svg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
     height: 100%;
